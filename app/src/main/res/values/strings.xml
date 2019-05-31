@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Formulaire</string>
+    <color name="background_light">#0080FF</color>
+    <color name="background_gray">#0080FF</color>
+</resources>

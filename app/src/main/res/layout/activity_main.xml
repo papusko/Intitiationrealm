@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:whatever="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/background_gray"
+    tools:context="com.africa.cloud.formulaire.MainActivity">
+
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/ic_launcher" />
+
+
+    <TextView
+        android:id="@+id/activity_main_greeting_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:textColor="@android:color/white"
+        android:text="Veuillez remplir vos informations personnelles"/>
+
+
+
+    <EditText
+        android:id="@+id/activity_main_nom_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:hint="Nom complet "
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="22dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:id="@+id/activity_main_email_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        style="@android:style/Widget.EditText"
+        android:hint="email "
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="22dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/activity_main_telephone_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:hint="N Téléphone "
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="22dp"
+        android:layout_marginRight="20dp"
+         />
+
+    <EditText
+        android:id="@+id/activity_main_datenaissance_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:hint="Date de Naissance "
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="22dp"
+        android:layout_marginRight="20dp"
+        android:inputType="date"
+        />
+
+    <Button
+        android:id="@+id/activity_main_play_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="8dp"
+        android:textSize="22dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#0f056b"
+        android:textColor="@android:color/white"
+        android:text="Enregistrer"/>
+
+
+</LinearLayout>

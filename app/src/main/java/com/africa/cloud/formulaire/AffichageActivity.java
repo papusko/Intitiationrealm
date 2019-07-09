@@ -78,7 +78,7 @@ public class AffichageActivity extends AppCompatActivity {
 
         RealmHelper helper = new RealmHelper(realm); //instanciation du realheper
         helper.reccuperation(); //appelle de la methode de reccuperation situé dans le realm helper (La liste Objet participant creer)
-         participantsList = helper.reccuperation(); // affectation de la liste
+        participantsList = helper.reccuperation(); // affectation de la liste
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
 
         mAdapter = new ParticipantsAdapter(participantsList,this);

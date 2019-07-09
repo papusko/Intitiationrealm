@@ -18,6 +18,14 @@ public class Participants extends RealmObject {
 
     @PrimaryKey
     int id;
+    private
+    String mNom;
+
+    private
+    String mEmail;
+
+    private
+    String mNumeroTelephone;
 
     public Participants() {
 
@@ -39,14 +47,6 @@ public class Participants extends RealmObject {
         this.mDateNaissance = mDateNaissance;
     }
 
-    private
-    String mNom;
-
-    private
-    String mEmail;
-
-    private
-    String mNumeroTelephone;
 
 
     private

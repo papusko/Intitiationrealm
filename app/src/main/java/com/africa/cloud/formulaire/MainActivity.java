@@ -208,7 +208,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                                 p.setmDateNaissance(edit_date_naissance.getText().toString());
 
                                 realm.copyToRealm(p);
-                                Intent intent = new Intent(MainActivity.this, AffichageActivity.class);
+                                Intent intent;
+                                intent = new Intent(MainActivity.this, AffichageActivity.class);
                                 startActivity(intent);
 
 
